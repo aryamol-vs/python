@@ -1,0 +1,8 @@
+a=int(input("enter the amount"))
+p=int(input("enter the principal amount"))
+n=int(input("enter the number of years"))
+r=float(input("enter the rate of interst"))
+simple_interest=p*n*r/100
+compound_interest=a-p
+print( "the simple interest is",simple_interest)
+print("compount interest is",compound_interest)
